@@ -1,0 +1,123 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.saludo{
+    @apply mx-8 my-4 text-4xl px-2 py-2 font-bold
+}
+
+.card{
+    @apply h-96 w-64 container mx-6 my-4 bg-gray-100 shadow-inner rounded-lg
+}
+
+.card:hover{
+    @apply bg-gray-300 shadow-xl
+}
+
+.button-edit{
+    @apply px-6 py-2 bg-purple-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest mb-2
+}
+
+.button-edit:focus{
+    @apply  outline-none border-purple-900
+}
+
+.button-edit:hover{
+    @apply outline-none bg-purple-700
+}
+
+.button-delete{
+    @apply px-4 py-2 bg-red-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest
+}
+
+.button-delete:hover{
+    @apply bg-red-700
+}
+
+.button-delete:focus{
+    @apply outline-none border-red-900
+}
+
+.button-actualizar{
+    @apply inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest 
+}
+
+.button-actualizar:hover{
+    @apply bg-gray-700
+}
+
+.button-actualizar:focus{
+    @apply outline-none border-gray-900
+}
+
+.label{
+    @apply block font-medium text-sm text-gray-700
+}
+
+.input{
+    @apply border-gray-300  rounded-md 
+}
+
+.input:focus{
+    @apply border-indigo-300 ring ring-indigo-200 ring-opacity-50 shadow-sm
+}
+
+.option{
+    @apply border-gray-300  rounded-md 
+}
+
+.option:focus{
+    @apply border-indigo-300 ring ring-indigo-200 ring-opacity-50 shadow-sm
+}
+
+.error{
+    @apply text-sm text-red-600 italic
+}
+
+.a_volver{
+    @apply px-2 py-2 uppercase text-lg font-bold
+}
+
+.a_volver:hover{
+    @apply opacity-50
+}
+
+.fondo_formulario{
+    @apply container mx-auto bg-white rounded-xl overflow-hidden
+}
+
+.h3{
+    @apply font-bold text-gray-700 uppercase
+}
+
+.boton_formulario{
+    @apply flex items-center justify-end px-4 py-3 bg-gray-600 text-right
+}
+
+.paginacion{
+    @apply text-sm font-bold px-6 py-4 bg-gray-600 border-t border-gray-600
+}
+
+.fondo_tablas{
+    @apply container mx-auto my-4 bg-white  rounded-xl overflow-hidden
+}
+
+.tabla{
+    @apply w-full rounded-lg shadow overflow-hidden mb-6
+}
+
+.titulo_tabla{
+    @apply text-xs font-medium text-white uppercase text-center tracking-wider
+}
+
+.fila_tabla{
+    @apply bg-gray-300 text-xs font-medium uppercase text-center tracking-wider
+}
+
+.fila_registro{
+    @apply text-sm text-gray-500 text-center
+}
+
+.sin_registros{
+    @apply text-gray-600 font-bold text-lg
+}
