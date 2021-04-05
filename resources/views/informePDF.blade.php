@@ -59,7 +59,7 @@
                     <tr class="encabezado">
                         <th>Tipo</th>
                         <th>Tiempo (Minutos)</th>                           
-                        <th>Kilometros</th>
+                        <th>Metros</th>
                     </tr>
                 </thead>
                 <tbody>

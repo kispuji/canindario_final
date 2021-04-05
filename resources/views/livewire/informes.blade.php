@@ -86,7 +86,7 @@
                             <tr class="fila_tabla">
                                 <th class="px-8 py-3">Tipo</th>
                                 <th class="px-8 py-3">Tiempo (Minutos)</th>                           
-                                <th class="px-3 py-3">Kilometros</th>
+                                <th class="px-3 py-3">Metros</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-gray-200">
