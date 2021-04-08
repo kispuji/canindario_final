@@ -175,6 +175,7 @@ class SeccionEntDiarios extends Component
      * Resetear valores variables.
      */
     public function resetear(){
+        $this->resetErrorBag();
         $this->reset(['date', 'time', 'series', 'zone', 'type', 'duration', 'meters', 'guide',
         'dog_id', 'criterion', 'training_id', 'action', 'titulo']);
     }

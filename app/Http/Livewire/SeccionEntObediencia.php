@@ -188,6 +188,7 @@ class SeccionEntObediencia extends Component
      * Resetear valores variables.
      */
     public function resetear(){
+        $this->resetErrorBag();
         $this->reset(['date', 'time', 'series', 'zone', 'order', 'duration', 'positives', 'negatives',
         'failures', 'guide', 'dog_id', 'criterion', 'training_id', 'action', 'titulo', 'comprobarSeries']);
     }

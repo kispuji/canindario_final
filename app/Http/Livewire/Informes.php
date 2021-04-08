@@ -197,6 +197,7 @@ class Informes extends Component
      * Resetear valores variables.
      */
     public function resetear(){
+        $this->resetErrorBag();
         $this->reset(['dateFrom', 'dateTo', 'guide', 'dog_id', 'existeInforme', 'totalesDiarios',
         'totalesObediencia', 'totalesBusqueda', 'titulo', 'action', 'comprobarFechas']);
     }

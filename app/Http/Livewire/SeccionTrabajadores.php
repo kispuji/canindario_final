@@ -154,6 +154,7 @@ class SeccionTrabajadores extends Component
      * Resetear valores variables.
      */
     public function resetear(){
+        $this->resetErrorBag();
         $this->reset(['name', 'surname', 'age', 'profession', 'street', 'number', 'town', 'city', 'cp', 'country','worker_id', 'action', 'titulo']);
     }
 

@@ -141,6 +141,7 @@ class SeccionPerros extends Component
      * Resetear valores variables.
      */
     public function resetear(){
+        $this->resetErrorBag();
         $this->reset(['name', 'age', 'specialty', 'race', 'marking', 'microchip', 'a_food',
          'guide','dog_id', 'action', 'titulo']);
     }

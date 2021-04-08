@@ -194,6 +194,7 @@ class SeccionEntBusqueda extends Component
      * Resetear valores variables.
      */
     public function resetear(){
+        $this->resetErrorBag();
         $this->reset(['date', 'time', 'series', 'zone', 'sustance', 'searchTime', 'focusTime', 'nivel',
         'positives', 'negatives', 'failures', 'guide', 'dog_id', 'training_id', 'action', 'titulo',
         'comprobarSeries']);
